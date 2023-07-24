@@ -1,0 +1,24 @@
+/* NAVBAR */
+.Appbar {
+    background-color: black;
+}
+
+.ButtonLogin {
+    transition: ease-in 0.5s !important;
+    text-transform: none !important;
+}
+
+.ButtonLogin:hover {
+    background-color: rgb(232, 237, 237) !important; 
+}
+
+.ButtonDownload {
+    transition: ease-in 0.5s !important;
+    text-transform: none !important;
+}
+
+.ButtonDownload:hover {
+    background-color: #2196f3 !important; 
+}
+/* NAVBAR */
+
