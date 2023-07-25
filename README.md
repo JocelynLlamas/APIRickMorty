@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+![Imagen](https://github.com/JocelynLlamas/APIRickMorty/blob/main/src/assets/bg.jpg)
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
