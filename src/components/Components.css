@@ -1,0 +1,15 @@
+.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/RM.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px);
+    /* Ajusta el valor del desenfoque según la cantidad que desees */
+    z-index: -1;
+}

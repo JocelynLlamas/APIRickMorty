@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { AppBar, Toolbar, Typography, CssBaseline, useScrollTrigger, Box, Fab, Fade, IconButton, Menu, Tooltip, MenuItem, Button } from '@mui/material';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import Logo from '../../assets/LOGO.svg';
+import Logo from '../../assets/rmlogo.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
@@ -80,7 +80,7 @@ const BackToTop = (props) => {
             <AppBar>
                 <Toolbar className='Appbar'>
 
-                    <img src={Logo} alt='Logo' />
+                    <img src={Logo} alt='Logo' style={{width:'10%'}}/>
 
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open About">
